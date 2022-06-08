@@ -8,7 +8,6 @@ var tentativas = "";
 var letras = [];
 
 palavraSecreta = palavras[Math.floor(Math.random()*8)]; 
-console.log(palavraSecreta);
 
 var c = document.getElementById("forca");
 var ctx = c.getContext("2d");
@@ -56,14 +55,12 @@ function verificaFimJogo(){
         ctx.font = "bold 40px Inter"
         ctx.fillText("VOCÊ GANHOU!", 520, 50);
         window.onkeypress = null;
-        console.log("Ganhei!");
         return;
     }
     if(quantidadesErros >= 6){
         ctx.font = "bold 40px Inter"
         ctx.fillText("GAME OVER!", 550, 50);
         window.onkeypress = null;
-        console.log("Perdemo!");
         return;
     }
 }
