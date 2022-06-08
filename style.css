@@ -1,0 +1,46 @@
+*{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 55px;
+}
+
+body{
+    background-image: linear-gradient(rgb(237, 239, 82), rgb(129, 224, 255));
+    
+}
+.main{
+    text-align: center;
+}
+
+#logo{
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+#botao{
+    background: rgb(4, 27, 89);
+    color: white;
+    cursor: pointer;
+    margin-top: 195px;
+    border-radius: 26px;
+    border: 2px solid black;
+    
+}
+footer{
+    /*texto*/
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 290px;
+    margin-left: 450px;
+    width: 450px;
+}
+
+.perfil{
+    /*perfil*/
+    width: 20px;
+    height: 20px;
+}
+
+    /* INDEX.HTML*/

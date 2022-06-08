@@ -1,0 +1,42 @@
+*{
+    font-family: "Inter";
+    font-weight: 50;
+    font-size: 20px;
+    line-height: 55px;
+/*    background-image: linear-gradient(to bottom right, rgb(249, 249, 249), rgb(24, 1, 109));
+*/
+}
+body{
+    background-image: linear-gradient(rgb(237, 239, 82), rgb(129, 224, 255));
+}
+.main{
+    text-align: center;
+}
+
+#logo{
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+footer{
+    /*texto*/
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 450px;
+    width: 450px;
+}
+
+.perfil{
+    /*perfil*/
+    width: 20px;
+    height: 20px;
+}
+
+
+#dica{
+    color: black;
+    font-size: 20px;
+    margin-left: 590px;
+    opacity: 30%;
+}
